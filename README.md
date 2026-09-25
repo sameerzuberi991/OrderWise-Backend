@@ -1,10 +1,19 @@
 # OrderWise — backend
 
 API and WhatsApp agent for OrderWise (FYP, FAST-NUCES Karachi, 2026–27). The
-web dashboards live in [`orderwise-web`](../orderwise-web).
+web dashboards live in [`OrderWise-Frontend`](https://github.com/sameerzuberi991/OrderWise-Frontend).
 
 > **Status:** Node + Express prototype. Per the proposal, the backend will move
 > to FastAPI (Python).
+
+## Team plans
+
+Per-member plans for this repo (phases, order, and who does what, from the
+approved proposal):
+
+- [Unaiza](unaiza.plan.md): WhatsApp / NLU Lead
+- [Sameer](sameer.plan.md): Apps & Reconciliation Lead
+- [Faizan](faizan.plan.md): Core Engine Lead
 
 ## Setup
 
