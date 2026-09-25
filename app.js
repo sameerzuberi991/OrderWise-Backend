@@ -9,7 +9,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-app.get('/', (_req, res) => res.json({ ok: true, service: 'zanjeer-server' }));
+app.get('/', (_req, res) => res.json({ ok: true, service: 'orderwise-server' }));
 app.use('/webhook', webhookRouter);
 app.use('/orders', ordersRouter);
 app.use('/analytics', analyticsRouter);

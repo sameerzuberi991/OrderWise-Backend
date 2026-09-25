@@ -2,8 +2,8 @@
 // Safe (and encouraged) to re-run right before the demo: `npm run seed`.
 import { supabase } from './db.js';
 
-// DEMO: set DEMO_PHONE in .env to the presenter's real WhatsApp number so the
-// on-stage phone maps to the first retailer. Falls back to a placeholder.
+// DEMO: set DEMO_PHONE in .env to your real WhatsApp number so the
+// phone you test with maps to the first retailer. Falls back to a placeholder.
 const DEMO_PHONE = process.env.DEMO_PHONE || '923001111111';
 
 // expiryInDays: best-before relative to today (negative = already expired, so the

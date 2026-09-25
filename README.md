@@ -1,12 +1,10 @@
 # OrderWise — backend
 
-API and WhatsApp agent for OrderWise (FYP, FAST-NUCES Karachi, 2026–27).
-Split out of the Zanjeer hackathon monorepo with its full commit history; the
+API and WhatsApp agent for OrderWise (FYP, FAST-NUCES Karachi, 2026–27). The
 web dashboards live in [`orderwise-web`](../orderwise-web).
 
-> **Status:** this is the Node + Express prototype carried over from the
-> hackathon. The code still uses the Zanjeer name — the rebrand is the next
-> step. Per the proposal, the backend will move to FastAPI (Python).
+> **Status:** Node + Express prototype. Per the proposal, the backend will move
+> to FastAPI (Python).
 
 ## Setup
 

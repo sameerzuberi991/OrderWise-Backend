@@ -1,4 +1,4 @@
--- Zanjeer demo schema. Run once in the Supabase SQL editor (or psql).
+-- OrderWise demo schema. Run once in the Supabase SQL editor (or psql).
 -- DEMO: no RLS — the server is the only client and uses the service key.
 
 create table if not exists retailers (
